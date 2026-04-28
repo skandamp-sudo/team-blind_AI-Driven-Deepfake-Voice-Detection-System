@@ -1,0 +1,12 @@
+streamlit
+librosa
+numpy
+scikit-learn
+xgboost
+matplotlib
+soundfile
+joblib
+opencv-python
+pillow
+torch
+torchvision
