@@ -32,15 +32,15 @@ This project provides:
    - Confidence score
 
 🏗️ Architecture
-Audio Input
-↓
-Feature Extraction (MFCC)
-↓
-Machine Learning Model
-↓
-Prediction + Confidence
-↓
-Streamlit Interface
+1. Audio Input
+
+2. Feature Extraction (MFCC)
+
+3. Machine Learning Model
+
+4. Prediction + Confidence
+
+5. Streamlit Interface
 
 
 ---
@@ -54,28 +54,27 @@ Streamlit Interface
 
 ## 📁 Project Structure
 deepfake-detector/
-│
-├── backend/
-│ └── detector.py
-│
-├── frontend/
-│ └── app.py
-│
-├── model/
-│ └── model.pkl
-│
-├── data/
-│ ├── real/
-│ └── fake/
-│
-├── train.py
-└── README.md
+ backend/
+    detector.py
+
+ frontend/
+     app.py
+
+model/
+  model.pkl
+
+data/
+  real/
+  fake/
+  train.py
+  
+README.md
 
 
 ---
 
 ## ⚙️ Installation
-git clone https://github.com/your-username/deepfake-detector.git
+git clone https://github.com/skandamp-sudo/team=blind_AI-Driven-Deepfake-Voice_Detection-System.git
 cd deepfake-detector
 pip install -r requirements.txt
 
